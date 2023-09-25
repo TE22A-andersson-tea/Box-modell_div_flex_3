@@ -1,0 +1,49 @@
+h1, h2{
+    color: white;
+}
+a, p{
+    
+}
+.Top{
+    background-color: #35424a;
+    display: flex;
+    flex-direction: column;
+    border-bottom: #e8491d 3px solid;
+    align-items: center;
+    color: white;
+    
+}
+
+.övre{
+    background-image: url(./img/showcase.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: #e8491d 3px  solid;
+}
+
+.mellan{
+    background-color: #35424a;
+    border-bottom: #e8491d 3px solid;
+}
+
+.undre-hela{
+    display: flex;
+    flex-direction: row;
+}
+.undre-vänster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.undre-mitten{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.undre-höger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
