@@ -1,5 +1,9 @@
 a{
     color: white;
+    text-decoration: none;
+}
+#Rubrik1{
+    font-size: 3em;
 }
 .Top{
     background-color: #35424a;
@@ -8,6 +12,7 @@ a{
     border-bottom: #e8491d 3px solid;
     align-items: center;
     color: white;
+    padding: 20px;
 }
 .top-text{
     display: flex;
@@ -71,4 +76,5 @@ a{
     padding: 25px;
     display: flex;
     justify-content: center;
+    
 }
