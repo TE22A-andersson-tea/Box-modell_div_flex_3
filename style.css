@@ -1,8 +1,5 @@
-h1, h2{
+a{
     color: white;
-}
-a, p{
-    
 }
 .Top{
     background-color: #35424a;
@@ -11,39 +8,67 @@ a, p{
     border-bottom: #e8491d 3px solid;
     align-items: center;
     color: white;
-    
+}
+.top-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 0.8em;
 }
 
 .övre{
     background-image: url(./img/showcase.jpg);
     background-position: center;
     background-size: 100% 100%;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     border-bottom: #e8491d 3px  solid;
+    align-items: center;
+    padding: 60px;
+    color: white;
+    text-align: center;
 }
 
 .mellan{
     background-color: #35424a;
     border-bottom: #e8491d 3px solid;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
 }
 
 .undre-hela{
     display: flex;
     flex-direction: row;
+    background-color: rgb(245, 234, 214);
 }
 .undre-vänster{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 .undre-mitten{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 .undre-höger{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+}
+
+.botten{
+    color: white;
+    background-color: #e8491d;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
 }
